@@ -1,0 +1,162 @@
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/131/758/desktop-wallpaper-goyard.jpg);
+}
+
+.navbar-blue {
+    background-color: #6ba8e4;
+    color: white;
+}
+
+.navbar-blue .nav-link {
+    color: white;
+}
+
+.navbar-blue .nav-link:hover {
+    color: lightblue;
+}
+
+.navbar-blue .navbar-toggler {
+    border-color: white;
+}
+
+.navbar-blue .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-brand h3 {
+    margin: 0;
+    color: white;
+}
+
+#class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#class ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#class ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border-radius: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: black;
+}
+
+.centerh1 {
+    text-align: center;
+}
+
+ul {
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s ease;
+}
+
+ul:hover li a {
+    color: chartreuse;
+}
+
+ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(176, 255, 57);
+}
+
+.pos {
+    position: absolute;
+    top: 50%;
+    width: 280px;
+    left: 2.6cm;
+}
+
+.row-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.col {
+    padding: 10px;
+    text-align: center;
+}
+
+.col-lg-3 {
+    flex: 1; 
+}
+
+.col-lg-6 {
+    flex: 2;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+
+p{
+    color: black;
+}
+
+.titleNaam{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}

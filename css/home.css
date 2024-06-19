@@ -1,0 +1,160 @@
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/131/758/desktop-wallpaper-goyard.jpg);
+}
+
+ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+
+.welcome-text {
+    padding-top: 20px;
+    color: black;
+    margin-top: 100px; 
+    margin-bottom: 50px;
+}
+
+
+/* Aangepaste navbar klassen */
+.navbar-custom .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-custom .navbar-toggler span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.navbar-custom .navbar-toggler span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-custom .navbar-toggler span:nth-child(2) {
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.navbar-custom .navbar-toggler.open span:nth-child(1) {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.navbar-custom .navbar-toggler.open span:nth-child(2) {
+    transform: translateY(50%) rotate(-45deg);
+}
+
+.navbar-custom .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar-custom .navbar-toggler{
+    background-color: #2795d0;
+
+}
+
+.navbar-custom .navbar-brand img {
+    margin-right: 10px; 
+}
+
+.navbar-custom .navbar-brand h3 {
+    margin: 0;
+    color: white; 
+}
+
+.navbar-custom .nav-link {
+   color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: lightblue;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Aanvullende aanpassingen */
+.navbar-custom .navbar-blue {
+    background-color: #6ba8e4;
+    color: white;
+}
+
+.navbar-custom .navbar-blue .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-blue .nav-link:hover {
+    color: lightblue;
+}
+.navbar-blue {
+    background-color: #6ba8e4;
+    color: white;
+}
+
+.navbar-blue .nav-link {
+    color: white;
+}
+
+.navbar-blue .nav-link:hover {
+    color: lightblue;
+}
+
+.navbar-blue .navbar-toggler {
+    border-color: white;
+}
+
+.navbar-blue .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.titleNaam{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-brand h3 {
+    margin: 0;
+    color: white;
+}
+
+.navbar-toggler .equal-sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem; /* Aanpassen naar de gewenste grootte */
+}
+
