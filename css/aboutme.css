@@ -9,6 +9,11 @@
     padding-bottom: 50px;
 }
 
+p{
+    color: black;
+  
+}
+
 .pos {
     position: absolute;
     top: 50%;
