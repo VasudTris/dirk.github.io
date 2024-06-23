@@ -1,5 +1,6 @@
+# robots.txt gegenereerd door seosos.nl
 User-agent: *
-Disallow:
-
+Disallow: 
+Disallow: /cgi-bin/
 Sitemap: https://vasudtris.github.io/portfolio/sitemap.xml
 
