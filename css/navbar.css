@@ -56,9 +56,8 @@ p{
 .titleNaam{
     margin: 0;
     padding: 0;
-    line-height: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
+    white-space: normal; /* Zorg ervoor dat de tekst kan ombreken */
+    word-wrap: break-word; /* Laat lange woorden afbreken indien nodig */
 }
 
 ul {
