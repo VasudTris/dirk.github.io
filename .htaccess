@@ -26,3 +26,4 @@
     mod_gzip_item_exclude mime ^image/.*
     mod_gzip_item_include handler ^cgi-script$
 </ifModule>
+Redirect 301 /sitemap.xml https://vasudtris.github.io/portfolio/sitemap.xml
