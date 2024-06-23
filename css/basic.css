@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/131/758/desktop-wallpaper-goyard.jpg);
+}
+
+.center-text{
+    text-align: center;
+}

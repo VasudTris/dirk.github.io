@@ -1,66 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url(https://e0.pxfuel.com/wallpapers/131/758/desktop-wallpaper-goyard.jpg);
-}
-.navbar-blue {
-    background-color: #6ba8e4;
-    color: white;
-}
-
-.navbar-blue .nav-link {
-    color: white;
-}
-
-.navbar-blue .nav-link:hover {
-    color: lightblue;
-}
-
-.navbar-blue .navbar-toggler {
-    border-color: white;
-}
-
-.navbar-blue .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.navbar-brand img {
-    margin-right: 10px; 
-}
-
-.navbar-brand h3 {
-    margin: 0;
-    color: white; 
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-}
-
-
 .card {
     background: #6ba8e4;
     position: relative; 
-}
-
-.titleNaam{
-    margin: 0;
-    padding: 0;
-    line-height: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
 }
 
 .card .image {
@@ -151,35 +91,6 @@ body {
     transform: .5s;
 }
 
-ul {
-    font-family: "Chivo Mono", monospace;
-    display: flex;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    font-size: 26px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    padding: 10px;
-    transition: 0.5s ease;
-}
-
-ul:hover li a {
-    color: rgb(0, 64, 255);
-}
-
-ul:hover li a:not(:hover) {
-    color: white;
-    opacity: 0.3;
-    filter: blur(1px);
-}
-
 .button {
     box-shadow: rgb(26, 88, 235);
     color: black;
@@ -202,12 +113,4 @@ button:hover {
     border-radius: 50px;
     margin-top: 50px;
     padding-bottom: 50px;
-}
-
-p {
-    color: aliceblue;
-}
-
-h1 {
-    color: black
 }
