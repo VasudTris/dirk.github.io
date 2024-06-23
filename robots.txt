@@ -1,2 +1,5 @@
 User-agent: *
-Allow: /
+Disallow:
+
+Sitemap: https://vasudtris.github.io/portfolio/sitemap.xml
+
