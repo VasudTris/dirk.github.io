@@ -8,8 +8,12 @@
 
 .welcome-text {
     padding-top: 20px;
-    color: black;
+    color: aliceblue;
     margin-top: 100px; 
     margin-bottom: 50px;
+}
+
+h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 10);
 }
 
